@@ -1,0 +1,36 @@
+# Environment Variables (CRITICAL - NEVER COMMIT!)
+.env
+*.env
+!.env.example
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.pdf
+data/
+temp/
+uploads/
+
+# Streamlit
+.streamlit/secrets.toml
